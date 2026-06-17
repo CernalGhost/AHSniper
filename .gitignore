@@ -1,0 +1,10 @@
+*.zip
+*.7z
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+*~
+
+# BigWigs packager output
+.release/

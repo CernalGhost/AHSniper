@@ -1,0 +1,22 @@
+## Interface: 110207, 110205, 110200, 120000, 120005
+## Title: |cff00ccffAH Sniper|r
+## Notes: Finds underpriced auction house deals and reset flips using TSM AuctionDB data.
+## Author: CernalGhost
+## Version: 1.4.0
+## SavedVariables: AHSniperDB
+## Dependencies: TradeSkillMaster
+## IconTexture: Interface\Icons\INV_Misc_Coin_01
+## Category-enUS: Auctions
+## X-Curse-Project-ID: 0
+## X-Wago-ID:
+## X-Website: https://github.com/CernalGhost/AHSniper
+
+EarlyHook.lua
+Core.lua
+Config.lua
+AppData.lua
+ItemUtils.lua
+Filters.lua
+Scanner.lua
+UI.lua
+Tooltip.lua

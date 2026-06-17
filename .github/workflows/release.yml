@@ -1,0 +1,28 @@
+name: Package and release
+
+# Fires when you push a version tag (e.g. `v1.0.32`). The BigWigsMods packager
+# builds the zip from the .toc/.pkgmeta, creates a GitHub release, and — once
+# CF_API_KEY + X-Curse-Project-ID are set — uploads to CurseForge.
+on:
+  push:
+    tags:
+      - '**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Package and release
+        uses: BigWigsMods/packager@v2
+        env:
+          GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}   # built-in; creates the GitHub release
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}       # set per-repo for CurseForge upload
+          # WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
+          # WOWI_API_TOKEN: ${{ secrets.WOWI_API_TOKEN }}
