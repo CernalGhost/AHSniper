@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest an improvement or new capability
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / use case
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Area
+      options:
+        - label: Deal Finder
+        - label: Reset Hunter
+        - label: Filters / sorting
+        - label: Tooltips
+        - label: Settings / thresholds
+        - label: Other

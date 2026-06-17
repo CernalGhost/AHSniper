@@ -86,6 +86,10 @@ Reset Hunter thresholds are stored in `AHSniperDB` and can be tuned directly:
 - **"TSM_API was not found"** — TradeSkillMaster isn't loaded; enable it.
 - **See Lua errors** — `/console scriptErrors 1` then `/reload`.
 
+## Contributing
+
+Bug reports, feature ideas, and pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## License
 
 MIT — see [LICENSE](LICENSE).

@@ -1,0 +1,67 @@
+name: Bug report
+description: Something is broken or not working as expected
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Please search [open issues](https://github.com/CernalGhost/AHSniper/issues) first.
+  - type: input
+    id: version
+    attributes:
+      label: AH Sniper version
+      placeholder: "1.4.0"
+    validations:
+      required: true
+  - type: input
+    id: wow-version
+    attributes:
+      label: WoW client version
+      placeholder: "e.g. 11.2.7"
+    validations:
+      required: true
+  - type: input
+    id: tsm-version
+    attributes:
+      label: TradeSkillMaster version
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area affected
+      options:
+        - Deal Finder (/ahs scan)
+        - Reset Hunter (/ahs resets)
+        - AH tooltips
+        - Settings / config
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened
+    validations:
+      required: true
+  - type: textarea
+    id: debug
+    attributes:
+      label: `/ahs debug` output
+  - type: textarea
+    id: errors
+    attributes:
+      label: Lua errors (if any)
