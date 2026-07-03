@@ -5,3 +5,12 @@ enable-nolib-creation: no
 manual-changelog:
   filename: CHANGELOG.md
   markup-type: markdown
+
+license-file: LICENSE
+
+ignore:
+  - .github
+  - .gitignore
+  - .pkgmeta
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md

@@ -4,6 +4,7 @@
 
 - Bumped `## Interface:` for retail 12.0.7 (`120007`) and PTR 12.1.0
   (`120100`).
+- CurseForge packaging: `.pkgmeta` license and ignore rules.
 
 ## 1.4.0
 
