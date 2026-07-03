@@ -1,8 +1,8 @@
-## Interface: 110207, 110205, 110200, 120000, 120005
+## Interface: 110207, 110205, 110200, 120000, 120005, 120007, 120100
 ## Title: |cff00ccffAH Sniper|r
 ## Notes: Finds underpriced auction house deals and reset flips using TSM AuctionDB data.
 ## Author: CernalGhost
-## Version: 1.4.0
+## Version: 1.4.1
 ## SavedVariables: AHSniperDB
 ## Dependencies: TradeSkillMaster
 ## IconTexture: Interface\Icons\INV_Misc_Coin_01

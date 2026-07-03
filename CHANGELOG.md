@@ -1,5 +1,10 @@
 # AH Sniper Changelog
 
+## 1.4.1
+
+- Bumped `## Interface:` for retail 12.0.7 (`120007`) and PTR 12.1.0
+  (`120100`).
+
 ## 1.4.0
 
 ### Added

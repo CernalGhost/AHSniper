@@ -4,7 +4,7 @@ AHSniper = AHSniper or {}
 local AH = AHSniper
 
 AH.ADDON_NAME = ADDON_NAME
-AH.version = "1.4.0"
+AH.version = "1.4.1"
 
 local frame = CreateFrame("Frame")
 frame:RegisterEvent("ADDON_LOADED")
